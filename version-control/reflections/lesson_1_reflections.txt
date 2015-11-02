@@ -1,0 +1,33 @@
+1) How did viewing a diff between 2 versions help you spot the bug?
+
+viewing the differences helped identify what we had changed from version 1 to version 2 that resulted in the bug. Using this information, we were then able to pinpoint all the potential sources of error and identify the correct one.
+
+2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You would be able to more quickly identify sources of error and debug your code. Also, if you change your mind and want to use something you’ve already deleted or accidentally deleted something, you don’t have to re-write the code and can instead recover it from older files.
+
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros
+-no useless/incomplete versions are saved
+-you don’t need to spend the time and effort to make decisions
+
+Cons
+-you may forget to save and it is too late to go back so you miss out on an important commit
+-you’re unaware of when versions are saved, don’t have a good idea of what different versions you have
+
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Some systems treat each file separately so that you won’t accidentally change all files in a repository. Perhaps the need for repositories is lesser as well.
+
+5) How can you use the commands git log and git diff to view the history of files?
+
+type git log for a list of all your commits
+you can these use git diff to compare 2 different commits and the changes that occurred between them (use the ID for each commit to compare)
+
+6) How might using version control make you more confident to make changes that could break something?
+
+It’s easy to revert to older versions even if your change fails, so there is no risk in making changes. Your work can always be recovered and the bug can be detected.
+
+7) What do you want to try using Git for?
+to collaborate with others in open source projects
