@@ -1,0 +1,4 @@
+2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+Pulling changes mnually allows you to control what gets pulled and what doesn't. 
+Maybe you are experimenting in one of the remote repositories and don't want to sync with all your repositories. In such a case,
+automatic pulls would mess up your plans.
