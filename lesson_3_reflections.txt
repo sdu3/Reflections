@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 Lesson 3 Reflections
+||||||| merged common ancestors
+=======
+1) When would you want to use a remote repository rather than keeping all your work local?
+A remote repository would best be used when collaborating with others. This way, you can upload your work to the remote repository for your partners to work on,
+and your partners can then edit off of your work and upload their work, creating a continual cycle for collaboration.
+>>>>>>> b80a85a533ed6de0c7bd87d12dc48a4744865f62
