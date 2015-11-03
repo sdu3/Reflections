@@ -1,0 +1,31 @@
+Sarah Du 
+Lesson 2 Reflections 
+
+1) What happens when you create a repository? What is the purpose?
+It creates a repository with 0 commits. The purpose of starting a new repository is to start a new project from scratch.
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+Staging area acts as a go between for the working directory and repository. It allows you to select which files you want to transfer from the working directory.
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+don’t add everything to the staging area at once. Add items in “groups”, where each group = 1 commit. Add items after each logical change. 
+
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+moving on to a different piece of work
+experimental features
+trying something that you are unsure of
+making a different version of something
+branches ensure that the other versions you’re working on aren’t affected. no risk of destroying past work (esp. master) when trying something new.
+
+5) How do the diagrams help you visualize the branch structure?
+The diagrams clears up which commits are in which branch and whether or not one commit is reachable from another commit. 
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When you merge 2 branches together, all the commits from one branch will be transferred to the other branch. The diagram represents it to make this clear and also to show which branch was merged into which branch.
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros of automatic merging
+convenient, requires no work/effort.
+
+Cons of automatic merging
+cannot detect conflict (decide which version to keep). Conflict has to be manually solved. 
